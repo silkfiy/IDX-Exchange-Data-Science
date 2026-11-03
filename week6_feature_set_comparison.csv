@@ -1,0 +1,10 @@
+Model,Feature set,n_features,Train R2,Test R2,Test R2 (log $),Test RMSE ($),Test Median APE,Δ Test R2 vs A
+Linear Regression,A. Original,4,0.403,0.3921,0.3586,1009542.2113,0.3628,0.0
+Decision Tree,A. Original,4,0.4769,0.4386,0.3767,970167.4885,0.3528,0.0
+Random Forest,A. Original,4,0.5406,0.4703,0.3983,942377.9782,0.3399,0.0
+Linear Regression,B. + Engineered,14,0.2369,0.1112,0.4821,1220756.302,0.3032,-0.281
+Decision Tree,B. + Engineered,14,0.5427,0.4973,0.4723,918062.5702,0.3017,0.0587
+Random Forest,B. + Engineered,14,0.6378,0.5559,0.5554,862841.1826,0.2686,0.0856
+Linear Regression,C. + School district,15,0.6454,0.7066,0.8326,701356.986,0.1413,0.3145
+Decision Tree,C. + School district,15,0.7333,0.7189,0.8167,686565.8738,0.1516,0.2802
+Random Forest,C. + School district,15,0.7867,0.7563,0.8553,639150.5211,0.1245,0.286
